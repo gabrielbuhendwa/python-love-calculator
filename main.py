@@ -28,4 +28,10 @@ love = l + o + v + e
 
 love_score = str(true) + str(love) #convert them into string in order to concatenate them together
 
-print(love_score)
+#score interpretation Message logic
+if (love_score < 10) or (love_score > 90): #in python we can use () or not in those if/else logic
+    print(f"Your score is {love_score}, you go together like coke and mentos.")
+elif (love_score >= 40) or (love_score <= 50):
+    print(f"Your score is {love_score}, you are alright together.")
+else :
+    print(f"Your score is {love_score}.")
